@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="parallel_beam_gantry">
+
+  <!-- =================================================================================== -->
+  <!-- |                              CONFIGURATION ARGS                                 | -->
+  <!-- =================================================================================== -->
+
+  <xacro:arg name="use_mock_hardware" default="false"/>
+  <xacro:arg name="use_sim"          default="true"/>
+
+  <xacro:arg name="enable_overhead_camera" default="true"/>
+  <xacro:arg name="overhead_camera_height" default="3.0"/>
+  <xacro:arg name="overhead_camera_name"   default="overhead"/>
+
+  <xacro:arg name="namespace" default=""/>
+
+  <!-- =================================================================================== -->
+  <!-- |                              INCLUDE XACRO FILES                                | -->
+  <!-- =================================================================================== -->
+
+  <xacro:include filename="$(find gantry)/urdf/parallel_beam_gantry.urdf.xacro"/>
+  <xacro:include filename="$(find gantry)/urdf/parallel_beam_gantry.ros2_control.xacro"/>
+  <xacro:include filename="$(find gantry)/urdf/parallel_beam_gantry.gazebo.xacro"/>
+  <xacro:include filename="$(find gantry)/urdf/parallel_beam_gantry.camera.xacro"/>
+
+  <!-- =================================================================================== -->
+  <!-- |                           INSTANTIATE MACROS                                    | -->
+  <!-- =================================================================================== -->
+
+  <xacro:parallel_beam_gantry_ros2_control
+      name="ParallelBeamGantrySystem"
+      use_mock_hardware="$(arg use_mock_hardware)"
+      use_sim="$(arg use_sim)"/>
+
+  <xacro:if value="$(arg use_sim)">
+    <xacro:parallel_beam_gantry_gazebo/>
+  </xacro:if>
+
+  <!-- Overhead RGB camera – only if enabled -->
+  <xacro:if value="$(arg enable_overhead_camera)">
+    <xacro:overhead_rgb_camera name_prefix="$(arg overhead_camera_name)">
+      <origin xyz="0 0 $(arg overhead_camera_height)" rpy="0 1.570796 0"/>
+    </xacro:overhead_rgb_camera>
+  </xacro:if>
+
+</robot>

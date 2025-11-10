@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- =================================================================================== -->
+  <!-- |                              GAZEBO CONFIGURATION                               | -->
+  <!-- =================================================================================== -->
+
+  <xacro:macro name="parallel_beam_gantry_gazebo">
+
+    <!-- Gazebo ROS2 Control Plugin -->
+    <gazebo>
+      <plugin name="gz_ros2_control::GazeboSimROS2ControlPlugin" filename="gz_ros2_control-system">
+        <parameters>$(find gantry_moveit_config)/config/ros2_controllers.yaml</parameters>
+      </plugin>
+    </gazebo>
+
+    <!-- =============================================================================== -->
+    <!-- |                          LINK VISUAL PROPERTIES                             | -->
+    <!-- =============================================================================== -->
+
+    <!-- World Link -->
+    <gazebo reference="world">
+      <static>true</static>
+    </gazebo>
+
+    <!-- Parallel Beams (Grey) -->
+    <gazebo reference="parallel_beam_1_link">
+      <material>
+        <ambient>0.5 0.5 0.5 1.0</ambient>
+        <diffuse>0.5 0.5 0.5 1.0</diffuse>
+        <specular>0.1 0.1 0.1 1.0</specular>
+      </material>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.8</mu>
+            <mu2>0.8</mu2>
+          </ode>
+        </friction>
+      </surface>
+    </gazebo>
+
+    <gazebo reference="parallel_beam_2_link">
+      <material>
+        <ambient>0.5 0.5 0.5 1.0</ambient>
+        <diffuse>0.5 0.5 0.5 1.0</diffuse>
+        <specular>0.1 0.1 0.1 1.0</specular>
+      </material>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.8</mu>
+            <mu2>0.8</mu2>
+          </ode>
+        </friction>
+      </surface>
+    </gazebo>
+
+    <!-- X-Axis Sliders (Blue) -->
+    <gazebo reference="x_slider_1_link">
+      <material>
+        <ambient>0 0 0.8 1.0</ambient>
+        <diffuse>0 0 0.8 1.0</diffuse>
+        <specular>0.2 0.2 0.2 1.0</specular>
+      </material>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.5</mu>
+            <mu2>0.5</mu2>
+          </ode>
+        </friction>
+      </surface>
+    </gazebo>
+
+    <gazebo reference="x_slider_2_link">
+      <material>
+        <ambient>0 0 0.8 1.0</ambient>
+        <diffuse>0 0 0.8 1.0</diffuse>
+        <specular>0.2 0.2 0.2 1.0</specular>
+      </material>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.5</mu>
+            <mu2>0.5</mu2>
+          </ode>
+        </friction>
+      </surface>
+    </gazebo>
+
+    <!-- Cross Beam (Red) -->
+    <gazebo reference="cross_beam_link">
+      <material>
+        <ambient>1.0 0 0 1.0</ambient>
+        <diffuse>1.0 0 0 1.0</diffuse>
+        <specular>0.2 0.2 0.2 1.0</specular>
+      </material>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.8</mu>
+            <mu2>0.8</mu2>
+          </ode>
+        </friction>
+      </surface>
+    </gazebo>
+
+    <!-- Y-Axis Slider (Green) -->
+    <gazebo reference="y_slider_link">
+      <material>
+        <ambient>0 1.0 0 1.0</ambient>
+        <diffuse>0 1.0 0 1.0</diffuse>
+        <specular>0.2 0.2 0.2 1.0</specular>
+      </material>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.5</mu>
+            <mu2>0.5</mu2>
+          </ode>
+        </friction>
+      </surface>
+    </gazebo>
+
+    <!-- Vertical Beam (Orange) -->
+    <gazebo reference="vertical_beam_link">
+      <material>
+        <ambient>1.0 0.5 0 1.0</ambient>
+        <diffuse>1.0 0.5 0 1.0</diffuse>
+        <specular>0.2 0.2 0.2 1.0</specular>
+      </material>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.8</mu>
+            <mu2>0.8</mu2>
+          </ode>
+        </friction>
+      </surface>
+    </gazebo>
+
+    <!-- Z-Axis Slider (Purple) -->
+    <gazebo reference="z_slider_link">
+      <material>
+        <ambient>0.5 0 0.8 1.0</ambient>
+        <diffuse>0.5 0 0.8 1.0</diffuse>
+        <specular>0.2 0.2 0.2 1.0</specular>
+      </material>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.5</mu>
+            <mu2>0.5</mu2>
+          </ode>
+        </friction>
+      </surface>
+    </gazebo>
+
+    <!-- End Effector (Cyan) -->
+    <gazebo reference="end_effector_link">
+      <material>
+        <ambient>0 1.0 1.0 1.0</ambient>
+        <diffuse>0 1.0 1.0 1.0</diffuse>
+        <specular>0.2 0.2 0.2 1.0</specular>
+      </material>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.5</mu>
+            <mu2>0.5</mu2>
+          </ode>
+        </friction>
+      </surface>
+    </gazebo>
+
+    <!-- =============================================================================== -->
+    <!-- |                          SENSOR PLUGINS (OPTIONAL)                          | -->
+    <!-- =============================================================================== -->
+
+    <!-- IMU Sensor on End Effector (Optional) -->
+    <!--
+    <gazebo reference="end_effector_link">
+      <sensor name="imu_sensor" type="imu">
+        <always_on>true</always_on>
+        <update_rate>100</update_rate>
+        <topic>imu</topic>
+        <gz_frame_id>end_effector_link</gz_frame_id>
+      </sensor>
+    </gazebo>
+    -->
+
+    <!-- Force Torque Sensor (Optional) -->
+    <!--
+    <gazebo reference="end_effector_attachment_joint">
+      <sensor name="force_torque_sensor" type="force_torque">
+        <always_on>true</always_on>
+        <update_rate>100</update_rate>
+        <topic>force_torque</topic>
+      </sensor>
+    </gazebo>
+    -->
+
+  </xacro:macro>
+
+</robot>

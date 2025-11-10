@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4ffef584aca83104d6ce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gantry",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_gantry_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_gantry_egg-f698317167baa4550182.json",
+					"name" : "ament_cmake_python_build_gantry_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_gantry::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_gantry-fc8a702ed06ced3adb41.json",
+					"name" : "ament_cmake_python_copy_gantry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gantry_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gantry_uninstall-fa2f4802e592ab8fa843.json",
+					"name" : "gantry_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-33ec53d9f2762c2ccce8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/build/gantry",
+		"source" : "/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/src/gantry"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

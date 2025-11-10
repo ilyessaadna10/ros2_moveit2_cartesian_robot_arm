@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:70 (file):
+  file INSTALL cannot find
+  "/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/src/gantry/world":
+  No such file or directory.
+
+[0m

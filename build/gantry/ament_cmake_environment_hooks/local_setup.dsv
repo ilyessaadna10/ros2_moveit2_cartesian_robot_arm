@@ -1,0 +1,3 @@
+source;share/gantry/environment/ament_prefix_path.sh
+source;share/gantry/environment/path.sh
+source;share/gantry/environment/pythonpath.sh

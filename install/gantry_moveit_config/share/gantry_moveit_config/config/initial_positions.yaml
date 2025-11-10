@@ -1,0 +1,6 @@
+# Default initial positions for parallel_beam_gantry's ros2_control fake system
+
+initial_positions:
+  x_slider_joint: 0
+  y_slider_joint: 0
+  z_slider_joint: 0

@@ -1,0 +1,44 @@
+Built target ament_cmake_python_copy_gantry
+running egg_info
+writing gantry.egg-info/PKG-INFO
+writing dependency_links to gantry.egg-info/dependency_links.txt
+writing top-level names to gantry.egg-info/top_level.txt
+reading manifest file 'gantry.egg-info/SOURCES.txt'
+writing manifest file 'gantry.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_gantry_egg
+-- Install configuration: ""
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/environment/pythonpath.sh
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/environment/pythonpath.dsv
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/lib/python3.12/site-packages/gantry-0.0.0-py3.12.egg-info
+-- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/lib/python3.12/site-packages/gantry-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/lib/python3.12/site-packages/gantry-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/lib/python3.12/site-packages/gantry-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/lib/python3.12/site-packages/gantry-0.0.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/lib/python3.12/site-packages/gantry
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/lib/python3.12/site-packages/gantry/__init__.py
+Listing '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/lib/python3.12/site-packages/gantry'...
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry//launch
+-- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry//launch/gazebo.launch.py
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry//launch/gantry_launch.py
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry//urdf
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry//urdf/urdf.xacro
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry//urdf/parallel_beam_gantry.urdf.xacro
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry//urdf/parallel_beam_gantry.gazebo.xacro
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry//urdf/parallel_beam_gantry.xacro
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry//urdf/parallel_beam_gantry.camera.xacro
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry//urdf/parallel_beam_gantry.ros2_control.xacro
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/ament_index/resource_index/package_run_dependencies/gantry
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/ament_index/resource_index/parent_prefix_path/gantry
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/environment/path.sh
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/environment/path.dsv
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/local_setup.bash
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/local_setup.sh
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/local_setup.zsh
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/local_setup.dsv
+-- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/package.dsv
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/ament_index/resource_index/packages/gantry
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/cmake/gantryConfig.cmake
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/cmake/gantryConfig-version.cmake
+-- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/package.xml

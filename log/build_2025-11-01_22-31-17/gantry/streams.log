@@ -1,0 +1,15 @@
+[0.016s] Invoking command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/build/gantry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/build/gantry -- -j8 -l8
+[0.108s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.363s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.463s] [31mCMake Error at CMakeLists.txt:30 (install):
+[0.463s]   install DIRECTORY given unknown argument "DIRECTORY".
+[0.464s] 
+[0.464s] [0m
+[0.471s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.471s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.472s] -- Added test 'lint_cmake' to check CMake code style
+[0.473s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.475s] -- Added test 'xmllint' to check XML markup files
+[0.476s] -- Configuring incomplete, errors occurred!
+[0.483s] gmake: *** [Makefile:254: cmake_check_build_system] Error 1
+[0.485s] Invoked command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/build/gantry' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/build/gantry -- -j8 -l8

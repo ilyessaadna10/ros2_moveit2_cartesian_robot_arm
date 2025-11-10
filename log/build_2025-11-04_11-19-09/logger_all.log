@@ -1,0 +1,211 @@
+[0.250s] DEBUG:colcon:Command line arguments: ['/home/ilyaes/.local/bin/colcon', 'build']
+[0.250s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x774bfebe0aa0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x774bfeb6d160>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x774bfeb6d160>>)
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.292s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/gantry) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/gantry) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/gantry) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/gantry) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/gantry) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/gantry) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/gantry) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/gantry) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/gantry) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gantry' with type 'ros.ament_cmake' and name 'gantry'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/gantry_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/gantry_moveit_config) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/gantry_moveit_config) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/gantry_moveit_config) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/gantry_moveit_config) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/gantry_moveit_config) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/gantry_moveit_config) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/gantry_moveit_config) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/gantry_moveit_config) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gantry_moveit_config' with type 'ros.ament_cmake' and name 'gantry_moveit_config'
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.343s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install
+[0.346s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 551 installed packages in /opt/ros/jazzy
+[0.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'gantry' build argument 'cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'gantry' build argument 'cmake_target' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'gantry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'gantry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'gantry' build argument 'cmake_clean_first' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'gantry' build argument 'cmake_force_configure' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'gantry' build argument 'ament_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'gantry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'gantry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.425s] DEBUG:colcon.colcon_core.verb:Building package 'gantry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/build/gantry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry', 'merge_install': False, 'path': '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/src/gantry', 'symlink_install': False, 'test_result_base': None}
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'gantry_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'gantry_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'gantry_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'gantry_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'gantry_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'gantry_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'gantry_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'gantry_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'gantry_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.425s] DEBUG:colcon.colcon_core.verb:Building package 'gantry_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/build/gantry_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config', 'merge_install': False, 'path': '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/src/gantry_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.425s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.426s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.426s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/src/gantry' with build type 'ament_cmake'
+[0.426s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/src/gantry'
+[0.429s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.430s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.430s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/build/gantry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/build/gantry -- -j8 -l8
+[1.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/build/gantry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/build/gantry -- -j8 -l8
+[1.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/build/gantry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/build/gantry
+[1.079s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gantry)
+[1.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/build/gantry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/build/gantry
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry' for CMake module files
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry' for CMake config files
+[1.085s] Level 1:colcon.colcon_core.shell:create_environment_hook('gantry', 'cmake_prefix_path')
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/hook/cmake_prefix_path.ps1'
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/hook/cmake_prefix_path.dsv'
+[1.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/hook/cmake_prefix_path.sh'
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/lib'
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/bin'
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/lib/pkgconfig/gantry.pc'
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/lib/python3.12/site-packages'
+[1.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('gantry', 'pythonpath')
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/hook/pythonpath.ps1'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/hook/pythonpath.dsv'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/hook/pythonpath.sh'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/bin'
+[1.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/package.ps1'
+[1.090s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/package.dsv'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/package.sh'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/package.bash'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/package.zsh'
+[1.093s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/colcon-core/packages/gantry)
+[1.094s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gantry)
+[1.094s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry' for CMake module files
+[1.094s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry' for CMake config files
+[1.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('gantry', 'cmake_prefix_path')
+[1.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/hook/cmake_prefix_path.ps1'
+[1.095s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/hook/cmake_prefix_path.dsv'
+[1.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/hook/cmake_prefix_path.sh'
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/lib'
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/bin'
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/lib/pkgconfig/gantry.pc'
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/lib/python3.12/site-packages'
+[1.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('gantry', 'pythonpath')
+[1.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/hook/pythonpath.ps1'
+[1.097s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/hook/pythonpath.dsv'
+[1.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/hook/pythonpath.sh'
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/bin'
+[1.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/package.ps1'
+[1.099s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/package.dsv'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/package.sh'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/package.bash'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry/package.zsh'
+[1.101s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/colcon-core/packages/gantry)
+[1.101s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/src/gantry_moveit_config' with build type 'ament_cmake'
+[1.101s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/src/gantry_moveit_config'
+[1.101s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.101s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/build/gantry_moveit_config': CMAKE_PREFIX_PATH=/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry:/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/build/gantry_moveit_config -- -j8 -l8
+[1.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/build/gantry_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry:/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/build/gantry_moveit_config -- -j8 -l8
+[1.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/build/gantry_moveit_config': CMAKE_PREFIX_PATH=/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry:/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/build/gantry_moveit_config
+[1.166s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gantry_moveit_config)
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config' for CMake module files
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config' for CMake config files
+[1.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/build/gantry_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry:/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/build/gantry_moveit_config
+[1.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('gantry_moveit_config', 'cmake_prefix_path')
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/share/gantry_moveit_config/hook/cmake_prefix_path.ps1'
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/share/gantry_moveit_config/hook/cmake_prefix_path.dsv'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/share/gantry_moveit_config/hook/cmake_prefix_path.sh'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/bin'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/lib/pkgconfig/gantry_moveit_config.pc'
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/lib/python3.12/site-packages'
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/bin'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/share/gantry_moveit_config/package.ps1'
+[1.172s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/share/gantry_moveit_config/package.dsv'
+[1.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/share/gantry_moveit_config/package.sh'
+[1.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/share/gantry_moveit_config/package.bash'
+[1.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/share/gantry_moveit_config/package.zsh'
+[1.173s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/share/colcon-core/packages/gantry_moveit_config)
+[1.174s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gantry_moveit_config)
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config' for CMake module files
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config' for CMake config files
+[1.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('gantry_moveit_config', 'cmake_prefix_path')
+[1.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/share/gantry_moveit_config/hook/cmake_prefix_path.ps1'
+[1.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/share/gantry_moveit_config/hook/cmake_prefix_path.dsv'
+[1.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/share/gantry_moveit_config/hook/cmake_prefix_path.sh'
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/bin'
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/lib/pkgconfig/gantry_moveit_config.pc'
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/lib/python3.12/site-packages'
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/bin'
+[1.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/share/gantry_moveit_config/package.ps1'
+[1.178s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/share/gantry_moveit_config/package.dsv'
+[1.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/share/gantry_moveit_config/package.sh'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/share/gantry_moveit_config/package.bash'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/share/gantry_moveit_config/package.zsh'
+[1.180s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry_moveit_config/share/colcon-core/packages/gantry_moveit_config)
+[1.180s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.180s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.180s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.181s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.191s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.191s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.191s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.205s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.205s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/local_setup.ps1'
+[1.206s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/_local_setup_util_ps1.py'
+[1.207s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/setup.ps1'
+[1.208s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/local_setup.sh'
+[1.209s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/_local_setup_util_sh.py'
+[1.209s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/setup.sh'
+[1.210s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/local_setup.bash'
+[1.210s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/setup.bash'
+[1.212s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/local_setup.zsh'
+[1.212s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/setup.zsh'
