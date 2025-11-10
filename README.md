@@ -16,7 +16,7 @@ The robot is a simple 3-axis Cartesian gantry with the following joints:
 
 ## Prerequisites
 
-*   ROS 2 (Humble Hawksbill or newer is recommended)
+*   ROS 2 (jazzy is recommended)
 *   MoveIt 2
 *   Gazebo (part of the `ros-dev-tools` installation)
 *   Colcon (ROS 2 build tool)
