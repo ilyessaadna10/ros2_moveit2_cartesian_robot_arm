@@ -22,6 +22,7 @@
   <xacro:include filename="$(find gantry)/urdf/parallel_beam_gantry.ros2_control.xacro"/>
   <xacro:include filename="$(find gantry)/urdf/parallel_beam_gantry.gazebo.xacro"/>
   <xacro:include filename="$(find gantry)/urdf/parallel_beam_gantry.camera.xacro"/>
+  <xacro:include filename="$(find gantry)/urdf/simple_gripper.urdf.xacro"/>
 
   <!-- =================================================================================== -->
   <!-- |                           INSTANTIATE MACROS                                    | -->
@@ -42,5 +43,10 @@
       <origin xyz="0 0 $(arg overhead_camera_height)" rpy="0 1.570796 0"/>
     </xacro:overhead_rgb_camera>
   </xacro:if>
+  <!-- Instantiate the gripper and attach it to the end effector -->
+  <xacro:simple_gripper name_prefix="" parent_link="end_effector_link">
+    <!-- Attach to the bottom tip of the 0.5m long end effector beam (-0.25m in Z) -->
+    <origin xyz="0 0 -0.25" rpy="0 0 0"/>
+  </xacro:simple_gripper>
 
 </robot>
