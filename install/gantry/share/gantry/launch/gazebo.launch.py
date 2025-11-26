@@ -52,6 +52,19 @@ def launch_setup(context, *args, **kwargs):
         parameters=[{"use_sim_time": use_sim_time}],
     )
 
+    # ### ADDED: BRIDGE FOR GRIPPER ATTACH/DETACH LOGIC ###
+    # This bridges ROS std_msgs/Empty -> Gazebo gz.msgs.Empty
+    gripper_topic_bridge = Node(
+        package="ros_gz_bridge",
+        executable="parameter_bridge",
+        arguments=[
+            "/gripper/attach@std_msgs/msg/Empty]gz.msgs.Empty",
+            "/gripper/detach@std_msgs/msg/Empty]gz.msgs.Empty",
+        ],
+        output="screen",
+        parameters=[{"use_sim_time": use_sim_time}],
+    )
+
     # Robot State Publisher
     robot_state_publisher = Node(
         package="robot_state_publisher",
@@ -74,6 +87,7 @@ def launch_setup(context, *args, **kwargs):
         executable="spawner",
         arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
         output="screen",
+        parameters=[{"use_sim_time": use_sim_time}],
     )
 
     gantry_controller_spawner = Node(
@@ -81,6 +95,17 @@ def launch_setup(context, *args, **kwargs):
         executable="spawner",
         arguments=["gantry_controller", "--controller-manager", "/controller_manager"],
         output="screen",
+        parameters=[{"use_sim_time": use_sim_time}],
+    )
+
+    # ### ADDED: SPAWN THE GRIPPER CONTROLLER ###
+    # Ensure this name matches what is in your ros2_controllers.yaml
+    gripper_controller_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["gripper_controller", "--controller-manager", "/controller_manager"],
+        output="screen",
+        parameters=[{"use_sim_time": use_sim_time}],
     )
 
     # Startup sequencing
@@ -91,10 +116,14 @@ def launch_setup(context, *args, **kwargs):
         )
     )
 
-    delay_gantry_controller = RegisterEventHandler(
+    # Load controllers AFTER joint_state_broadcaster
+    delay_controllers = RegisterEventHandler(
         event_handler=OnProcessExit(
             target_action=joint_state_broadcaster_spawner,
-            on_exit=[gantry_controller_spawner],
+            on_exit=[
+                gantry_controller_spawner, 
+                gripper_controller_spawner # ### ADDED HERE
+            ],
         )
     )
 
@@ -102,10 +131,11 @@ def launch_setup(context, *args, **kwargs):
     nodes = [
         gazebo,
         clock_bridge,
+        gripper_topic_bridge, # ### ADDED HERE
         robot_state_publisher,
         spawn_robot,
         delay_joint_state,
-        delay_gantry_controller,
+        delay_controllers,
     ]
 
     # === Overhead RGB Camera Bridge (only if enabled) ===

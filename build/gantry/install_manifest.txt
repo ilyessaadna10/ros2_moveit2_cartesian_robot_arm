@@ -5,6 +5,7 @@
 /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/lib/python3.12/site-packages/gantry-0.0.0-py3.12.egg-info/dependency_links.txt
 /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/lib/python3.12/site-packages/gantry-0.0.0-py3.12.egg-info/PKG-INFO
 /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/lib/python3.12/site-packages/gantry/__init__.py
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/lib/python3.12/site-packages/gantry/pick_and_place.py
 /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry//launch/gazebo.launch.py
 /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry//launch/gantry_launch.py
 /home/ilyaes/Desktop/ros2project/moveit2_tuto/ros2_gantry_ws/install/gantry/share/gantry//urdf/urdf.xacro

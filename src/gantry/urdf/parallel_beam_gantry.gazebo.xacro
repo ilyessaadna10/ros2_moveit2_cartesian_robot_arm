@@ -10,9 +10,26 @@
     <!-- Gazebo ROS2 Control Plugin -->
     <gazebo>
       <plugin name="gz_ros2_control::GazeboSimROS2ControlPlugin" filename="gz_ros2_control-system">
-        <parameters>$(find gantry_moveit_config)/config/ros2_controllers.yaml</parameters>
+        <parameters>$(find gantry_moveit_config_2)/config/ros2_controllers.yaml</parameters>
       </plugin>
+          <plugin filename="gz-sim-detachable-joint-system" name="gz::sim::systems::DetachableJoint">
+        <!-- 1. The Robot (Parent) -->
+        <!-- <parent_model>parallel_beam_gantry</parent_model> -->
+        <parent_link>z_slider_link</parent_link>
+        
+        <!-- 2. The Object (Child) -->
+        <child_model>sphere_red</child_model>
+        <child_link>link</child_link>
+        
+        <!-- 3. The Signal -->
+        <attach_topic>/gripper/attach</attach_topic>
+        <detach_topic>/gripper/detach</detach_topic>
+        <suppress_child_collision>true</suppress_child_collision>
+    </plugin>
+    
+
     </gazebo>
+
 
     <!-- =============================================================================== -->
     <!-- |                          LINK VISUAL PROPERTIES                             | -->

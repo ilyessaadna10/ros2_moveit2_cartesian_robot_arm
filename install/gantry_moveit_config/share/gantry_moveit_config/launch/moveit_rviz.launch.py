@@ -20,7 +20,7 @@ def generate_launch_description():
     
     # Build MoveIt configuration
     moveit_config = (
-        MoveItConfigsBuilder("parallel_beam_gantry", package_name="gantry_moveit_config")
+        MoveItConfigsBuilder("parallel_beam_gantry", package_name="gantry_moveit_config_2")
         .to_moveit_configs()
     )
     

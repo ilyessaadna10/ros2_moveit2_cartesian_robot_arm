@@ -1,5 +1,6 @@
 setup.py
 gantry/__init__.py
+gantry/pick_and_place.py
 gantry.egg-info/PKG-INFO
 gantry.egg-info/SOURCES.txt
 gantry.egg-info/dependency_links.txt

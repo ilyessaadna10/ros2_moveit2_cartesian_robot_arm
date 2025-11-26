@@ -14,6 +14,26 @@ The robot is a simple 3-axis Cartesian gantry with the following joints:
 *   `y_slider_joint` (Prismatic)
 *   `z_slider_joint` (Prismatic)
 
+## Features
+
+This project includes advanced features for object manipulation and interaction in a simulated environment.
+
+### Grasping with a Simple Gripper
+
+A simple parallel gripper has been added to the gantry's end-effector, allowing it to perform basic grasping operations. Key components of this implementation include:
+
+*   **Gripper Model**: A two-fingered gripper is defined in `simple_gripper.urdf.xacro`, featuring a "master" and "mimic" joint for symmetric motion.
+*   **MoveIt 2 Integration**: The gripper is configured as an end-effector in MoveIt 2 (named "hand"), with pre-defined "open" and "close" states for easy manipulation.
+*   **Controller**: A `joint_trajectory_controller` is used to control the gripper's finger joint.
+
+### Detachable Joint Plugin for Object Interaction
+
+To simulate picking up and placing objects, this project uses the `gz-sim-detachable-joint-system` Gazebo plugin. This plugin allows for dynamically creating and breaking a fixed joint between the robot and other objects in the simulation.
+
+*   **Plugin Configuration**: The plugin is configured in `parallel_beam_gantry.gazebo.xacro` to attach a target object (e.g., a red sphere) to the robot's `z_slider_link`.
+*   **ROS 2 Interface**: The attachment and detachment are triggered by publishing messages to the `/gripper/attach` and `/gripper/detach` topics. A ROS-Gazebo bridge is set up in the launch file to facilitate this communication.
+
+
 ## Prerequisites
 
 *   ROS 2 (Humble Hawksbill or newer is recommended)

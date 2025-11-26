@@ -59,11 +59,11 @@
       <parent link="${name_prefix}base_link"/>
       <child link="${name_prefix}left_finger_link"/>
       <!-- The finger starts offset from the center of the base -->
-      <origin xyz="0 0.045 -0.025" rpy="0 0 0"/>
+      <origin xyz="0 0.01 -0.025" rpy="0 0 0"/>
       <!-- It moves outwards along the positive Y-axis -->
       <axis xyz="0 1 0"/>
       <!-- 'lower=0' is closed, 'upper=0.03' is open -->
-      <limit lower="0.0" upper="0.03" effort="20" velocity="0.5"/>
+      <limit lower="0.0" upper="0.05" effort="20" velocity="0.5"/>
     </joint>
 
     <!-- Right Finger (Slave) -->
@@ -86,10 +86,10 @@
       <parent link="${name_prefix}base_link"/>
       <child link="${name_prefix}right_finger_link"/>
       <!-- This finger starts on the opposite side of the base -->
-      <origin xyz="0 -0.045 -0.025" rpy="0 0 0"/>
+      <origin xyz="0 -0.01 -0.025" rpy="0 0 0"/>
       <!-- It moves outwards along the negative Y-axis -->
       <axis xyz="0 -1 0"/>
-      <limit lower="0.0" upper="0.03" effort="20" velocity="0.5"/>
+      <limit lower="0.0" upper="0.05" effort="20" velocity="0.5"/>
       <!-- The MIMIC tag is the key: it makes this joint copy the master joint's value -->
       <mimic joint="${name_prefix}left_finger_joint" multiplier="1" offset="0"/>
     </joint>
