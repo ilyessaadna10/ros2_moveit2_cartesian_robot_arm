@@ -1,0 +1,17 @@
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/lib/gantry_control/simple_move
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/launch/move_gantry.launch.py
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/ament_index/resource_index/package_run_dependencies/gantry_control
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/ament_index/resource_index/parent_prefix_path/gantry_control
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/environment/ament_prefix_path.sh
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/environment/ament_prefix_path.dsv
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/environment/path.sh
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/environment/path.dsv
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/local_setup.bash
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/local_setup.sh
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/local_setup.zsh
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/local_setup.dsv
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/package.dsv
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/ament_index/resource_index/packages/gantry_control
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/cmake/gantry_controlConfig.cmake
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/cmake/gantry_controlConfig-version.cmake
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/package.xml

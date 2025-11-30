@@ -1,0 +1,4 @@
+source;share/gantry_moveit_config_2/local_setup.bash
+source;share/gantry_moveit_config_2/local_setup.dsv
+source;share/gantry_moveit_config_2/local_setup.sh
+source;share/gantry_moveit_config_2/local_setup.zsh

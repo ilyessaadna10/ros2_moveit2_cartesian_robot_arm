@@ -1,0 +1,61 @@
+[0.009s] Invoking command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_moveit_config_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/src/gantry_moveit_config_2 -DCMAKE_INSTALL_PREFIX=/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2
+[0.139s] -- The C compiler identification is GNU 13.3.0
+[0.260s] -- The CXX compiler identification is GNU 13.3.0
+[0.279s] -- Detecting C compiler ABI info
+[0.380s] -- Detecting C compiler ABI info - done
+[0.393s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.394s] -- Detecting C compile features
+[0.395s] -- Detecting C compile features - done
+[0.407s] -- Detecting CXX compiler ABI info
+[0.511s] -- Detecting CXX compiler ABI info - done
+[0.530s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.530s] -- Detecting CXX compile features
+[0.531s] -- Detecting CXX compile features - done
+[0.546s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.750s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.055s] -- Configuring done (1.0s)
+[1.060s] -- Generating done (0.0s)
+[1.063s] -- Build files have been written to: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_moveit_config_2
+[1.070s] Invoked command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_moveit_config_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/src/gantry_moveit_config_2 -DCMAKE_INSTALL_PREFIX=/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2
+[1.072s] Invoking command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_moveit_config_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_moveit_config_2 -- -j8 -l8
+[1.121s] Invoked command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_moveit_config_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_moveit_config_2 -- -j8 -l8
+[1.123s] Invoking command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_moveit_config_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_moveit_config_2
+[1.135s] -- Install configuration: ""
+[1.135s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/ament_index/resource_index/package_run_dependencies/gantry_moveit_config_2
+[1.136s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/ament_index/resource_index/parent_prefix_path/gantry_moveit_config_2
+[1.136s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/environment/ament_prefix_path.sh
+[1.136s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/environment/ament_prefix_path.dsv
+[1.136s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/environment/path.sh
+[1.137s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/environment/path.dsv
+[1.137s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/local_setup.bash
+[1.137s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/local_setup.sh
+[1.137s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/local_setup.zsh
+[1.137s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/local_setup.dsv
+[1.137s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/package.dsv
+[1.138s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/ament_index/resource_index/packages/gantry_moveit_config_2
+[1.138s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/cmake/gantry_moveit_config_2Config.cmake
+[1.138s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/cmake/gantry_moveit_config_2Config-version.cmake
+[1.138s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/package.xml
+[1.138s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/launch
+[1.138s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/launch/setup_assistant.launch.py
+[1.139s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/launch/spawn_controllers.launch.py
+[1.139s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/launch/rsp.launch.py
+[1.139s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/launch/demo.launch.py
+[1.139s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/launch/moveit_rviz.launch.py
+[1.139s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/launch/move_group.launch.py
+[1.139s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/launch/warehouse_db.launch.py
+[1.139s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/launch/gazebo_moveit.launch.py
+[1.139s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/launch/static_virtual_joint_tfs.launch.py
+[1.140s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/config
+[1.140s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/config/ros2_controllers.yaml
+[1.140s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/config/parallel_beam_gantry.urdf.xacro
+[1.140s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/config/parallel_beam_gantry.srdf
+[1.140s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/config/joint_limits.yaml
+[1.140s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/config/pilz_cartesian_limits.yaml
+[1.141s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/config/moveit_controllers.yaml
+[1.141s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/config/initial_positions.yaml
+[1.141s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/config/kinematics.yaml
+[1.141s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/config/parallel_beam_gantry.ros2_control.xacro
+[1.141s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/config/moveit.rviz
+[1.141s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_moveit_config_2/share/gantry_moveit_config_2/.setup_assistant
+[1.145s] Invoked command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_moveit_config_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_moveit_config_2

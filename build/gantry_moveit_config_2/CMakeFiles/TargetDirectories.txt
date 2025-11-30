@@ -1,0 +1,9 @@
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_moveit_config_2/CMakeFiles/uninstall.dir
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_moveit_config_2/CMakeFiles/gantry_moveit_config_2_uninstall.dir
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_moveit_config_2/CMakeFiles/test.dir
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_moveit_config_2/CMakeFiles/edit_cache.dir
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_moveit_config_2/CMakeFiles/rebuild_cache.dir
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_moveit_config_2/CMakeFiles/list_install_components.dir
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_moveit_config_2/CMakeFiles/install.dir
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_moveit_config_2/CMakeFiles/install/local.dir
+/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_moveit_config_2/CMakeFiles/install/strip.dir

@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: gantry
+    relative_path: urdf/parallel_beam_gantry.xacro
+  srdf:
+    relative_path: config/parallel_beam_gantry.srdf
+  package_settings:
+    author_name: ilyes
+    author_email: ilyessaadna4@gmail.com
+    generated_timestamp: 1764322402
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

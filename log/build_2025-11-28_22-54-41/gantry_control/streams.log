@@ -1,0 +1,72 @@
+[0.018s] Invoking command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/src/gantry_control -DCMAKE_INSTALL_PREFIX=/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control
+[0.218s] -- The C compiler identification is GNU 13.3.0
+[0.327s] -- The CXX compiler identification is GNU 13.3.0
+[0.352s] -- Detecting C compiler ABI info
+[0.457s] -- Detecting C compiler ABI info - done
+[0.472s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.472s] -- Detecting C compile features
+[0.473s] -- Detecting C compile features - done
+[0.484s] -- Detecting CXX compiler ABI info
+[0.601s] -- Detecting CXX compiler ABI info - done
+[0.613s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.614s] -- Detecting CXX compile features
+[0.614s] -- Detecting CXX compile features - done
+[0.627s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.819s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.012s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.124s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.152s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.214s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.370s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.377s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.520s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.549s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.578s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.701s] -- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[1.878s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[2.406s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.522s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[2.547s] -- Found rclcpp_lifecycle: 28.1.12 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.602s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[2.714s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.715s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.978s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[3.043s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[3.082s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[3.246s] -- Configuring done (3.2s)
+[3.303s] -- Generating done (0.0s)
+[3.312s] -- Build files have been written to: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_control
+[3.329s] Invoked command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/src/gantry_control -DCMAKE_INSTALL_PREFIX=/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control
+[3.330s] Invoking command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_control -- -j8 -l8
+[3.402s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_move.dir/src/simple_move.cpp.o[0m
+[6.776s] In file included from [01m[K/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/src/gantry_control/src/simple_move.cpp:2[m[K:
+[6.777s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[6.777s]    51 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[6.777s]       |                                                                       [01;36m[K^[m[K
+[6.777s] 
+[11.488s] [100%] [32m[1mLinking CXX executable simple_move[0m
+[12.108s] [100%] Built target simple_move
+[12.128s] Invoked command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_control -- -j8 -l8
+[12.132s] Invoking command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_control
+[12.147s] -- Install configuration: ""
+[12.147s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/lib/gantry_control/simple_move
+[12.149s] -- Set non-toolchain portion of runtime path of "/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/lib/gantry_control/simple_move" to ""
+[12.149s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/launch
+[12.149s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/launch/move_gantry.launch.py
+[12.150s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/ament_index/resource_index/package_run_dependencies/gantry_control
+[12.151s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/ament_index/resource_index/parent_prefix_path/gantry_control
+[12.152s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/environment/ament_prefix_path.sh
+[12.152s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/environment/ament_prefix_path.dsv
+[12.153s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/environment/path.sh
+[12.153s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/environment/path.dsv
+[12.153s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/local_setup.bash
+[12.154s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/local_setup.sh
+[12.154s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/local_setup.zsh
+[12.155s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/local_setup.dsv
+[12.155s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/package.dsv
+[12.155s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/ament_index/resource_index/packages/gantry_control
+[12.155s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/cmake/gantry_controlConfig.cmake
+[12.155s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/cmake/gantry_controlConfig-version.cmake
+[12.156s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/package.xml
+[12.159s] Invoked command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_control

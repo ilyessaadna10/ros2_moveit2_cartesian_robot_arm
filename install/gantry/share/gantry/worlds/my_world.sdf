@@ -1,0 +1,189 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+  <world name="empty_world">
+    
+    <!-- Physics configuration -->
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+    
+    <!-- Plugins -->
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"></plugin>
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"></plugin>
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"></plugin>
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+
+    
+    <!-- Sun -->
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+    
+    <!-- Ground Plane -->
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry><plane><normal>0 0 1</normal><size>100 100</size></plane></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><plane><normal>0 0 1</normal><size>100 100</size></plane></geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+            <diffuse>0.8 0.8 0.8 1</diffuse>
+            <specular>0.8 0.8 0.8 1</specular>
+          </material>
+        </visual>
+      </link>
+    </model>
+    
+    <!-- ============================================ -->
+    <!-- GROUP 1: TABLE WITH BINS (Positive X) -->
+    <!-- ============================================ -->
+
+    <!-- Table 1 (5cm shorter) -->
+    <model name="table_bins">
+      <static>true</static>
+      <pose>0.6 0 0 0 0 0</pose>
+      <link name="link">
+
+        <visual name="top_visual">
+          <pose>0 0 1.10 0 0 0</pose>
+          <geometry><box><size>0.7 1.0 0.04</size></box></geometry>
+          <material><diffuse>0.6 0.4 0.2 1</diffuse></material>
+        </visual>
+        <collision name="top_collision">
+          <pose>0 0 1.10 0 0 0</pose>
+          <geometry><box><size>0.7 1.0 0.04</size></box></geometry>
+        </collision>
+
+        <visual name="leg_visual">
+          <pose>0 0 0.54 0 0 0</pose>
+          <geometry><box><size>0.1 0.1 1.08</size></box></geometry>
+          <material><diffuse>0.2 0.2 0.2 1</diffuse></material>
+        </visual>
+        <collision name="leg_collision">
+          <pose>0 0 0.54 0 0 0</pose>
+          <geometry><box><size>0.1 0.1 1.08</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- Bin 1 (5cm lower) -->
+    <model name="bin_1">
+      <static>true</static>
+      <pose>0.6 0.25 1.12 0 0 0</pose>
+      <link name="link">
+        <visual name="base"><pose>0 0 0.01 0 0 0</pose><geometry><box><size>0.3 0.3 0.02</size></box></geometry><material><diffuse>0.3 0.3 0.5 1</diffuse></material></visual>
+        <collision name="base"><pose>0 0 0.01 0 0 0</pose><geometry><box><size>0.3 0.3 0.02</size></box></geometry></collision>
+
+        <visual name="w1"><pose>0.14 0 0.075 0 0 0</pose><geometry><box><size>0.02 0.3 0.13</size></box></geometry><material><diffuse>0.3 0.3 0.5 1</diffuse></material></visual>
+        <collision name="w1"><pose>0.14 0 0.075 0 0 0</pose><geometry><box><size>0.02 0.3 0.13</size></box></geometry></collision>
+
+        <visual name="w2"><pose>-0.14 0 0.075 0 0 0</pose><geometry><box><size>0.02 0.3 0.13</size></box></geometry><material><diffuse>0.3 0.3 0.5 1</diffuse></material></visual>
+        <collision name="w2"><pose>-0.14 0 0.075 0 0 0</pose><geometry><box><size>0.02 0.3 0.13</size></box></geometry></collision>
+
+        <visual name="w3"><pose>0 0.14 0.075 0 0 0</pose><geometry><box><size>0.26 0.02 0.13</size></box></geometry><material><diffuse>0.3 0.3 0.5 1</diffuse></material></visual>
+        <collision name="w3"><pose>0 0.14 0.075 0 0 0</pose><geometry><box><size>0.26 0.02 0.13</size></box></geometry></collision>
+
+        <visual name="w4"><pose>0 -0.14 0.075 0 0 0</pose><geometry><box><size>0.26 0.02 0.13</size></box></geometry><material><diffuse>0.3 0.3 0.5 1</diffuse></material></visual>
+        <collision name="w4"><pose>0 -0.14 0.075 0 0 0</pose><geometry><box><size>0.26 0.02 0.13</size></box></geometry></collision>
+      </link>
+    </model>
+
+    <!-- Bin 2 (5cm lower) -->
+    <model name="bin_2">
+      <static>true</static>
+      <pose>0.6 -0.25 1.12 0 0 0</pose>
+      <link name="link">
+        <visual name="base"><pose>0 0 0.01 0 0 0</pose><geometry><box><size>0.3 0.3 0.02</size></box></geometry><material><diffuse>0.3 0.3 0.5 1</diffuse></material></visual>
+        <collision name="base"><pose>0 0 0.01 0 0 0</pose><geometry><box><size>0.3 0.3 0.02</size></box></geometry></collision>
+
+        <visual name="w1"><pose>0.14 0 0.075 0 0 0</pose><geometry><box><size>0.02 0.3 0.13</size></box></geometry><material><diffuse>0.3 0.3 0.5 1</diffuse></material></visual>
+        <collision name="w1"><pose>0.14 0 0.075 0 0 0</pose><geometry><box><size>0.02 0.3 0.13</size></box></geometry></collision>
+
+        <visual name="w2"><pose>-0.14 0 0.075 0 0 0</pose><geometry><box><size>0.02 0.3 0.13</size></box></geometry><material><diffuse>0.3 0.3 0.5 1</diffuse></material></visual>
+        <collision name="w2"><pose>-0.14 0 0.075 0 0 0</pose><geometry><box><size>0.02 0.3 0.13</size></box></geometry></collision>
+
+        <visual name="w3"><pose>0 0.14 0.075 0 0 0</pose><geometry><box><size>0.26 0.02 0.13</size></box></geometry><material><diffuse>0.3 0.3 0.5 1</diffuse></material></visual>
+        <collision name="w3"><pose>0 0.14 0.075 0 0 0</pose><geometry><box><size>0.26 0.02 0.13</size></box></geometry></collision>
+
+        <visual name="w4"><pose>0 -0.14 0.075 0 0 0</pose><geometry><box><size>0.26 0.02 0.13</size></box></geometry><material><diffuse>0.3 0.3 0.5 1</diffuse></material></visual>
+        <collision name="w4"><pose>0 -0.14 0.075 0 0 0</pose><geometry><box><size>0.26 0.02 0.13</size></box></geometry></collision>
+      </link>
+    </model>
+
+    <!-- ============================================ -->
+    <!-- GROUP 2: TABLE WITH SPHERES (Negative X) -->
+    <!-- ============================================ -->
+
+    <!-- Table 2 (5cm shorter) -->
+    <model name="table_spheres">
+      <static>true</static>
+      <pose>-0.6 0 0 0 0 0</pose>
+      <link name="link">
+
+        <visual name="top_visual">
+          <pose>0 0 1.10 0 0 0</pose>
+          <geometry><box><size>0.7 1.0 0.04</size></box></geometry>
+          <material><diffuse>0.6 0.4 0.2 1</diffuse></material>
+        </visual>
+        <collision name="top_collision">
+          <pose>0 0 1.10 0 0 0</pose>
+          <geometry><box><size>0.7 1.0 0.04</size></box></geometry>
+        </collision>
+
+        <visual name="leg_visual">
+          <pose>0 0 0.54 0 0 0</pose>
+          <geometry><box><size>0.1 0.1 1.08</size></box></geometry>
+          <material><diffuse>0.2 0.2 0.2 1</diffuse></material>
+        </visual>
+        <collision name="leg_collision">
+          <pose>0 0 0.54 0 0 0</pose>
+          <geometry><box><size>0.1 0.1 1.08</size></box></geometry>
+        </collision>
+
+      </link>
+    </model>
+
+    <!-- Red Sphere (5cm lower) -->
+    <model name="sphere_red">
+      <pose>-0.6 0.2 1.147 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>0.1</mass>
+          <inertia><ixx>0.00006</ixx><iyy>0.00006</iyy><izz>0.00006</izz></inertia>
+        </inertial>
+        <collision name="collision"><geometry><sphere><radius>0.04</radius></sphere></geometry></collision>
+        <visual name="visual">
+          <geometry><sphere><radius>0.04</radius></sphere></geometry>
+          <material><ambient>0.8 0.1 0.1 1</ambient><diffuse>0.8 0.1 0.1 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Blue Sphere (5cm lower) -->
+    <model name="sphere_blue">
+      <pose>-0.6 -0.2 1.147 0 0 0</pose>
+      <link name="link">
+        <inertial>
+          <mass>0.1</mass>
+          <inertia><ixx>0.00006</ixx><iyy>0.00006</iyy><izz>0.00006</izz></inertia>
+        </inertial>
+        <collision name="collision"><geometry><sphere><radius>0.04</radius></sphere></geometry></collision>
+        <visual name="visual">
+          <geometry><sphere><radius>0.04</radius></sphere></geometry>
+          <material><ambient>0.1 0.1 0.8 1</ambient><diffuse>0.1 0.1 0.8 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+    
+  </world>
+</sdf>

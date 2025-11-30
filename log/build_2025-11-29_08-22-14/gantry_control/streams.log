@@ -1,0 +1,27 @@
+[0.018s] Invoking command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_control -- -j8 -l8
+[0.136s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_move.dir/src/simple_move.cpp.o[0m
+[7.114s] [100%] [32m[1mLinking CXX executable simple_move[0m
+[7.575s] [100%] Built target simple_move
+[7.587s] Invoked command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_control -- -j8 -l8
+[7.589s] Invoking command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_control
+[7.597s] -- Install configuration: ""
+[7.598s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/lib/gantry_control/simple_move
+[7.599s] -- Set non-toolchain portion of runtime path of "/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/lib/gantry_control/simple_move" to ""
+[7.599s] -- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/launch
+[7.599s] -- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/launch/move_gantry.launch.py
+[7.600s] -- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/ament_index/resource_index/package_run_dependencies/gantry_control
+[7.600s] -- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/ament_index/resource_index/parent_prefix_path/gantry_control
+[7.600s] -- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/environment/ament_prefix_path.sh
+[7.600s] -- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/environment/ament_prefix_path.dsv
+[7.600s] -- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/environment/path.sh
+[7.600s] -- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/environment/path.dsv
+[7.600s] -- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/local_setup.bash
+[7.600s] -- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/local_setup.sh
+[7.600s] -- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/local_setup.zsh
+[7.601s] -- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/local_setup.dsv
+[7.601s] -- Installing: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/package.dsv
+[7.601s] -- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/ament_index/resource_index/packages/gantry_control
+[7.601s] -- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/cmake/gantry_controlConfig.cmake
+[7.601s] -- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/cmake/gantry_controlConfig-version.cmake
+[7.601s] -- Up-to-date: /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/install/gantry_control/share/gantry_control/package.xml
+[7.602s] Invoked command in '/home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ilyaes/Desktop/ros2project/moveit2_tuto/new_gantry_ws/build/gantry_control
