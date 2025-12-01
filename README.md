@@ -8,3 +8,8 @@ To ensure the simulation works correctly, especially concerning object manipulat
 
 1.  **Detach the ball initially**: If you are using a simulation where a ball might be attached to the robot or environment by default, **it is crucial to detach it first** when starting the simulation. Keeping it attached from the very beginning might prevent the simulation from functioning as expected.
 2.  **Attach the ball (if needed)**: After starting the simulation and ensuring everything is running smoothly, you can re-attach the ball if your task requires it.
+
+## Screencasts
+
+- [Screencast 1](./Screencast%20from%202025-12-01%2018-14-01.webm)
+- [Screencast 2](./Screencast%20from%202025-12-01%2018-17-33.webm)
