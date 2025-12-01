@@ -11,5 +11,5 @@ To ensure the simulation works correctly, especially concerning object manipulat
 
 ## Screencasts
 
-- [Screencast 1](./Screencast%20from%202025-12-01%2018-14-01.webm)
-- [Screencast 2](./Screencast%20from%202025-12-01%2018-17-33.webm)
+- [Screencast 1](https://youtu.be/xRDOEuoTyK4?si=OP5qipy-Fn_WnIeW)
+- [Screencast 2](https://youtu.be/axT72veuAJQ?si=vE6f3TPSMJ_7414s)
