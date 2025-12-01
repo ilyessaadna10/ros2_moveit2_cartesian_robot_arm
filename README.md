@@ -11,5 +11,6 @@ To ensure the simulation works correctly, especially concerning object manipulat
 
 ## Screencasts
 
-- [Screencast 1](https://youtu.be/xRDOEuoTyK4?si=OP5qipy-Fn_WnIeW)
-- [Screencast 2](https://youtu.be/axT72veuAJQ?si=vE6f3TPSMJ_7414s)
+[![Screencast 1](https://img.youtube.com/vi/xRDOEuoTyK4/0.jpg)](https://www.youtube.com/watch?v=xRDOEuoTyK4)
+
+[![Screencast 2](https://img.youtube.com/vi/axT72veuAJQ/0.jpg)](https://www.youtube.com/watch?v=axT72veuAJQ)
